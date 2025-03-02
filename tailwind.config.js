@@ -12,7 +12,7 @@ export default {
         primarySubcontent: '#144272',
         primaryBase: '#000000',//
         primaryAccent: '#000000',
-        primaryBackground: '#FFFFFF',
+        primaryBackground: '#f4f8fc',
 
         /* color theme
         0A2647  Navy Blue
