@@ -30,7 +30,7 @@ const Experience = () => {
                 <div className='flex gap-4 text-xl'>
                     <Material icon={faGithub} link="https://www.google.com/" />
                     <Material icon={faMedium} link="https://www.google.com/" />
-                    <Material icon={faYoutube} link="https://www.google.com/" />
+                    <Material icon={faYoutube} link="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
                 </div>
 
                 <Description description="Designing and developing a sports data analysis system that scrapes data from various sports websites."/>
