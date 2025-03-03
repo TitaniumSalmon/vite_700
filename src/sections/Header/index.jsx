@@ -1,4 +1,3 @@
-import fileResume from '../../assets/6521650912_Panat.drawio.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { data } from '../../contents/header'

@@ -8,11 +8,12 @@ export default {
     extend: {
       colors: {
         primaryTitle: '#0A2647',
-        primaryContent: '#0A2647',
-        primarySubcontent: '#144272',
+        primaryContent: '#144272',
+        primarySubcontent: '#205295',
         primaryBase: '#000000',//
         primaryAccent: '#000000',
         primaryBackground: '#f4f8fc',
+        button: "#c6ddf1"
 
         /* color theme
         0A2647  Navy Blue
