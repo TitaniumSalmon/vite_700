@@ -4,10 +4,12 @@ import Contact from "../Contact";
 
 const LeftSection = () => {
     return (
-    <div className='px-5'>
-        <div className='sticky top-14 grid gap-y-4 lg:grid-rows-[35%_45%_20%] h-[87vh] '>
-          <Header />
-          <Navbar />
+    <div className='px-6 pt-14'>
+        <div className='sticky top-14 flex flex-col justify-between h-[87vh] pb-8'>
+          <div className='flex flex-col gap-8'>
+            <Header />
+            <Navbar />
+          </div>
           <Contact />
         </div>
     </div>

@@ -5,15 +5,15 @@ import TitleLink from '../../components/TitleLink';
 import Material from '../../components/Material';
 import Description from '../../components/Description';
 import Tech from '../../components/Tech';
-import { data } from '../../contents/experience';
+import { data } from '../../contents/project';
 
-const SECTION_ID = 'experience-section';
+const SECTION_ID = 'project-section';
 
-const Experience = () => {
+const Project = () => {
     const [isMouseEnter, setIsMouseEnter] = useState({});
     return (
     <div id={SECTION_ID} className='scroll-mt-20'>
-        <div className="text-primaryAccent font-semibold tracking-widest text-xs uppercase mb-2">Experience</div>
+        <div className="text-primaryAccent font-semibold tracking-widest text-xs uppercase mb-2">Project</div>
         {
             data.map(({
                 date = "",
@@ -62,4 +62,4 @@ const Experience = () => {
     )
 }
 
-export default Experience;
+export default Project;
