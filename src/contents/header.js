@@ -1,4 +1,4 @@
-import fileName from '../assets/PORTFOLIO.pdf'
+import fileName from '../assets/CV Resume.pdf'
 export const data = {
     name: 'Perapon Siriwat',
     title: 'Backend Developer · Studying',

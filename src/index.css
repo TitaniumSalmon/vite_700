@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  body{
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
     margin: 0;
     @apply bg-primaryBackground;
     @apply text-primaryBase;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   }
 }

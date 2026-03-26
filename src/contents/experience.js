@@ -37,6 +37,20 @@ export const data = [
         picture: picExp,
     },
     {
+        title: "Vite + React Framework",
+        link: "https://github.com/TitaniumSalmon/vite_700",
+        materials: [
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/vite_700" },
+        ],
+        descriptions: [
+            "ได้รู้จักการเขียน Vite + React Framework ในการทำ Web Portfolio",
+        ],
+        skills: [
+            ["JavaScript", "HTML", "CSS"],
+        ],
+        picture: picExp,
+    },
+    {
         date: "ปี 3 ภาคต้น",
         title: "ASP.NET Core MVC",
         link: "https://github.com/TitaniumSalmon/ASP.NET-Core-MVC-Tutorial",

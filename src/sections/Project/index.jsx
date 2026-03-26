@@ -7,13 +7,13 @@ import Description from '../../components/Description';
 import Tech from '../../components/Tech';
 import { data } from '../../contents/project';
 
-const SECTION_ID = 'experience-section';
+const SECTION_ID = 'project-section';
 
 const Project = () => {
     const [isMouseEnter, setIsMouseEnter] = useState({});
     return (
-    <div id={SECTION_ID}>
-        <div className="text-primaryAccent font-medium">Project</div>
+    <div id={SECTION_ID} className='scroll-mt-20'>
+        <div className="text-primaryAccent font-semibold tracking-widest text-xs uppercase mb-2">Project</div>
         {
             data.map(({
                 date = "",

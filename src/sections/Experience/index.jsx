@@ -12,8 +12,8 @@ const SECTION_ID = 'experience-section';
 const Experience = () => {
     const [isMouseEnter, setIsMouseEnter] = useState({});
     return (
-    <div id={SECTION_ID}>
-        <div className="text-primaryAccent font-medium">Experience</div>
+    <div id={SECTION_ID} className='scroll-mt-20'>
+        <div className="text-primaryAccent font-semibold tracking-widest text-xs uppercase mb-2">Experience</div>
         {
             data.map(({
                 date = "",
