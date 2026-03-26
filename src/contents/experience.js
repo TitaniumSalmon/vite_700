@@ -49,7 +49,7 @@ export const data = [
         skills: [
             ["HTML","C#","CSS","JavaScript"],
         ],
-        picture: picASP,
+        picture: picExp,
     },
     {
         title: "02739342 · Application Development for Mobile Devices",
@@ -63,7 +63,7 @@ export const data = [
         skills: [
             ["Flutter","Firebase"],
         ],
-        picture: picFultter,
+        picture: picExp,
     },
     {
         date: "ปี 3 ภาคปลาย",
@@ -107,6 +107,21 @@ export const data = [
         ],
         skills: [
             ["C","C++"],
+        ],
+        picture: picExp, 
+    },
+    {
+        title: "Automate Testing",
+        link: "https://github.com/TitaniumSalmon/Playwright",
+        materials: [
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/Robot-Framework"},
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/Playwright"},
+        ],
+        descriptions: [
+            "ได้ลองเขียนระบบ Testing อัตโนมัติ โดยไม่ต้อง Manual Testing ทุกครั้งหลังระบบเพิ่มฟังก์ชันมาใหม่"
+        ],
+        skills: [
+            ["Robot Framework","Playwright"],
         ],
         picture: picExp, 
     },

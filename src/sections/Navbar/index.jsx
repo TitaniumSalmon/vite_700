@@ -9,7 +9,6 @@ const Navbar = () => {
             </div>
             <div className='text-left'>Experience</div>
             <div className='text-left'>Project</div>
-            <div className='text-left'>Article</div>
         </div>
     );
 }

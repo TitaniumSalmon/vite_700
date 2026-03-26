@@ -1,4 +1,4 @@
 export const data = {
     "title": "About",
-    "description": "description"
+    "description": "หนุ่มที่อกหัก"
 }
