@@ -1,54 +1,113 @@
 import { faGithub, faMedium, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import picExp from '../assets/picture.jpg';
+import picExp from '../assets/picture.png';
+import picASP from '../assets/ASP.NET Core.png'
+import picFultter from '../assets/Flutter.png'
+import { text } from "@fortawesome/fontawesome-svg-core";
 
 export const data = [
     {
-        date: "2020-2021",
-        title: "Fullstackkk · Sport Analysis System",
-        link: "https://suriyapi.github.io/vite/",
+        date: "ปี 2 ภาคปลาย",
+        title: "02739212 · Principles of Object Oriented Programming",
+        link: "https://github.com/TitaniumSalmon/Java",
         materials: [
-            { type: faGithub, link: "https://suriyapi.github.io/vite/" },
-            { type: faYoutube, link: "https://suriyapi.github.io/vite/" },
-            { type: faMedium, link: "https://suriyapi.github.io/vite/" },
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/Java"},
         ],
         descriptions: [
-            "Designing and developing a sports data analysis system that scrapes data from various sports websites, processes it, and presents different profit-making possibilities in real-time for customers.",
-            "Create tools for monitoring the backend and implementing self-recovery mechanisms, ensuring their seamless operation 24/7.",
+            "การเรียนวิชาหลักการเขียนโปรแกรมเชิงวัตถุโดยใช้ภาษา Java ด้วย IDE ของ IntelliJ IDEA ได้เรียนรู่ 2 อย่างคือ",
+            "1. ได้รู้ว่าภาษา Java มี Syntax เป็นอย่างไร , ฝึกการใช้โปรแกรม IntelliJ , เพิ่มทักษะการเขียนโปรแกรมภาษาใหม่",
+            "2. ได้รู้ว่าการเขียนโปรแกรมแบบ OOP เป็นอย่างไร การสืบทอดจากฟังก์ชันแม่สืบทอดฟังก์ชันลูกเป็นอย่างไร การเขียนโปรแกรมแบบ OOP ช่วยให้เขียนโปรแกรมเป็นระบบ และช่วยลดความซ้ำซ้อนของฟังก์ชันที่เรียกใช้บ่อย ๆ"
         ],
         skills: [
-            ["React", "Redus", "MUI"],
-            ["NginX", "NodeJS", "Express", "MongoDB"],
+            ["Java"],
         ],
         picture: picExp,
     },
     {
-        date: "2022-2023",
-        title: "Fullstack · Sport Analysis System",
-        link: "https://suriyapi.github.io/vite/",
+        title: "02739241 · Internet Technology",
+        link: "https://github.com/TitaniumSalmon/241-2567_700",
         materials: [
-            { type: faGithub, link: "https://suriyapi.github.io/vite/" },
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/241-2567_700" },
         ],
         descriptions: [
-            "Create tools for monitoring the backend and implementing self-recovery mechanisms, ensuring their seamless operation 24/7.",
+            "ได้รู้จักการเขียนเว็บเบื้องต้น รู้วิธีสร้าง Frontend, Backend, สร้างและทดสอบ API, ฝึกการใช้ docker เบื้องต้น, สร้าง database ในการจัดเก็บข้อมูล",
         ],
         skills: [
-            ["React", "Redus", "MUI"],
+            ["JavaScript", "HTML", "CSS"],
         ],
         picture: picExp,
     },
     {
-        date: "2024-2025",
-        title: "Full · Sport Analysis System",
-        link: "https://suriyapi.github.io/vite/",
+        date: "ปี 3 ภาคต้น",
+        title: "ASP.NET Core MVC",
+        link: "https://github.com/TitaniumSalmon/ASP.NET-Core-MVC-Tutorial",
         materials: [
-            { type: faGithub, link: "https://suriyapi.github.io/vite/" },
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/ASP.NET-Core-MVC-Tutorial" },
         ],
         descriptions: [
-            "Create tools for monitoring the backend and implementing self-recovery mechanisms, ensuring their seamless operation 24/7.",
+            "ได้ฝึกใช้ Framework ASP.NET Core MVC ทำให้รู้ว่า Model (ข้อมูล), View (หน้าจอแสดงผล) และ Controller (ตรรกะการทำงาน) คืออะไรและมีหน้าที่อะไร",
         ],
         skills: [
-            ["React"],
+            ["HTML","C#","CSS","JavaScript"],
+        ],
+        picture: picASP,
+    },
+    {
+        title: "02739342 · Application Development for Mobile Devices",
+        link: "https://github.com/TitaniumSalmon/02739342-Flutter",
+        materials: [
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/02739342-Flutter" },
+        ],
+        descriptions: [
+            "ได้รู้จักการใช้ Flutter ในการทำ Mobile Application, ใช้ Firebase ในการจัดเก็บข้อมูล Flutter สามารถเป็นอีกตัวเลือกหนึ่งในการทำ Web app",
+        ],
+        skills: [
+            ["Flutter","Firebase"],
+        ],
+        picture: picFultter,
+    },
+    {
+        date: "ปี 3 ภาคปลาย",
+        title: "Angular",
+        link: "https://github.com/TitaniumSalmon/Angular-Framework",
+        materials: [
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/Angular-Framework" },
+        ],
+        descriptions: [
+            "ได้ฝึกการใช้ Angular Framework ทำส่วนของ Frontend",
+        ],
+        skills: [
+            ["Angular"],
         ],
         picture: picExp,
+    },
+    {
+        title: "Spring Boot",
+        link: "https://github.com/TitaniumSalmon/Spring-Boot",
+        materials: [
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/Spring-Boot" },
+        ],
+        descriptions: [
+            "ได้ฝึกการใช้ Spring Boot Framework ทำส่วนของ Backend โดยเขียนด้วยภาษา Java",
+        ],
+        skills: [
+            ["Spring Boot"],
+        ],
+        picture: picExp,
+    },
+    {
+        title: "02739354 · Design and Development for Internet of Things",
+        link: "https://github.com/TitaniumSalmon/02739354-IoT",
+        materials: [
+            { type: faGithub, link: "https://github.com/TitaniumSalmon/02739354-IoT" },
+        ],
+        descriptions: [
+            "ได้ฝึกการเขียนโปรแกรมและต่อบอร์ด ESP-32 จำลองใน Wokwi",
+            "ได้รู้จักว่า MQTT Protocol คืออะไรมีข้อดีอย่างไร และทดลองใช้ MQTT Protocol",
+            "ได้ลองใช้ NETPIE เป็นศูนย์กลางเชื่อมต่อและแลกเปลี่ยนข้อมูล และใช้ Mobile application เขียนด้วย Flutter ควบคุมอุปกรณ์และบันทึกข้อมูลไว้ใน Firebase"
+        ],
+        skills: [
+            ["C","C++"],
+        ],
+        picture: picExp, 
     },
 ]
