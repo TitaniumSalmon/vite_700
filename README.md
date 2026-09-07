@@ -1,3 +1,6 @@
+นี่คือรากฐานที่นำไปต่อยอดเป็น Web Portfolio ในอนาคต สามารถไปที่ Repository นั้นได้[ที่นี่](https://github.com/TitaniumSalmon/Portfolio)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
